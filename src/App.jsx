@@ -18,7 +18,7 @@ function App() {
     {
       id: 2,
       nom: "Latifa",
-      picture: "/assets/chaimaa.jpg",
+      picture: "/assets/latifa.jpg",
       tasks: [
         { id: 201, text: "Design page mockup", statu: "pending" },
         { id: 202, text: "Update product ", statu: "done" },
