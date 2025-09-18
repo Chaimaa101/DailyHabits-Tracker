@@ -8,7 +8,7 @@ function App() {
     {
       id: 1,
       nom: "Chaimaa",
-      picture: "/assets/chaimaa.jpg",
+      picture: "src/assets/chaimaa.jpg",
       tasks: [
         { id: 101, text: "Prepare project ", statu: "pending" },
         { id: 102, text: "Fix login page", statu: "done" },
@@ -18,7 +18,7 @@ function App() {
     {
       id: 2,
       nom: "Latifa",
-      picture: "/assets/latifa.jpg",
+      picture: "src/assets/latifa.jpg",
       tasks: [
         { id: 201, text: "Design page mockup", statu: "pending" },
         { id: 202, text: "Update product ", statu: "done" },
@@ -28,7 +28,7 @@ function App() {
     {
       id: 3,
       nom: "Rania",
-      picture: "/assets/rania.jpg",
+      picture: "src/assets/rania.jpg",
       tasks: [
         { id: 301, text: "User interviews", statu: "pending" },
         { id: 302, text: "Feedback results", statu: "done" },
@@ -38,7 +38,7 @@ function App() {
     {
       id: 4,
       nom: "Salma",
-      picture: "/assets/salma.jpg",
+      picture: "src/assets/salma.jpg",
       tasks: [
         { id: 401, text: "Set up database ", statu: "pending" },
         { id: 402, text: "Monitor server ", statu: "done" },
@@ -95,7 +95,7 @@ function App() {
         Daily Habits Tracker
       </h1>
       <AddRoutineForm users={users} setUsers={setUsers} />
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-6xl mx-auto p-6 lg:grid-cols-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-6xl mx-auto p-6 lg:grid-cols-4">
         {users.map((user) => (
           <UserCart
             key={user.id}

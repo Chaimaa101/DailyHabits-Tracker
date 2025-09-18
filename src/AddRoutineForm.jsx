@@ -30,7 +30,7 @@ function AddRoutineForm({ users , setUsers }) {
 
   return (
     <form onSubmit={addTask}>
-      <div className="flex items-center justify-center gap-2 mb-8 max-w-5xl mx-auto border-lavender focus:outline-none focus:ring-2 focus:ring-violet bg-lightRose shadow-xl p-3 rounded-lg">
+      <div className="flex flex-col sm:flex-row md:flex-row items-center justify-center gap-2 mb-8 max-w-5xl mx-auto border-lavender focus:outline-none focus:ring-2 focus:ring-violet bg-lightRose shadow-xl p-3 rounded-lg">
         <input
           type="text"
           value={habit}
