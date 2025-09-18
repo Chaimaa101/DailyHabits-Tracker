@@ -8,7 +8,7 @@ function App() {
     {
       id: 1,
       nom: "Chaimaa",
-      picture: "src/assets/chaimaa.jpg",
+      picture: "/assets/chaimaa.jpg",
       tasks: [
         { id: 101, text: "Prepare project ", statu: "pending" },
         { id: 102, text: "Fix login page", statu: "done" },
@@ -18,7 +18,7 @@ function App() {
     {
       id: 2,
       nom: "Latifa",
-      picture: "src/assets/latifa.jpg",
+      picture: "/assets/latifa.jpg",
       tasks: [
         { id: 201, text: "Design page mockup", statu: "pending" },
         { id: 202, text: "Update product ", statu: "done" },
@@ -28,7 +28,7 @@ function App() {
     {
       id: 3,
       nom: "Rania",
-      picture: "src/assets/rania.jpg",
+      picture: "/assets/rania.jpg",
       tasks: [
         { id: 301, text: "User interviews", statu: "pending" },
         { id: 302, text: "Feedback results", statu: "done" },
@@ -38,7 +38,7 @@ function App() {
     {
       id: 4,
       nom: "Salma",
-      picture: "src/assets/salma.jpg",
+      picture: "/assets/salma.jpg",
       tasks: [
         { id: 401, text: "Set up database ", statu: "pending" },
         { id: 402, text: "Monitor server ", statu: "done" },
