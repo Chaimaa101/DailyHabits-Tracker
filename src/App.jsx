@@ -8,41 +8,41 @@ function App() {
     {
       id: 1,
       nom: "Chaimaa",
-      picture: "/assets/chaimaa.jpg",
+      picture: "src/assets/chaimaa.jpg",
       tasks: [
-        { id: 101, text: "Prepare project ", statu: "pending" },
-        { id: 102, text: "Fix login page", statu: "done" },
-        { id: 103, text: "Pull requests", statu: "pending" },
+        // { id: 101, text: "Prepare project ", statu: "pending" },
+        // { id: 102, text: "Fix login page", statu: "done" },
+        // { id: 103, text: "Pull requests", statu: "pending" },
       ]
     },
     {
       id: 2,
       nom: "Latifa",
-      picture: "/assets/latifa.jpg",
+      picture: "src/assets/latifa.jpg",
       tasks: [
-        { id: 201, text: "Design page mockup", statu: "pending" },
-        { id: 202, text: "Update product ", statu: "done" },
-        { id: 203, text: "Test process", statu: "pending" },
+        // { id: 201, text: "Design page mockup", statu: "pending" },
+        // { id: 202, text: "Update product ", statu: "done" },
+        // { id: 203, text: "Test process", statu: "pending" },
       ]
     },
     {
       id: 3,
       nom: "Rania",
-      picture: "/assets/rania.jpg",
+      picture: "src/assets/rania.jpg",
       tasks: [
-        { id: 301, text: "User interviews", statu: "pending" },
-        { id: 302, text: "Feedback results", statu: "done" },
-        { id: 303, text: "Create report", statu: "pending" },
+        // { id: 301, text: "User interviews", statu: "pending" },
+        // { id: 302, text: "Feedback results", statu: "done" },
+        // { id: 303, text: "Create report", statu: "pending" },
       ]
     },
     {
       id: 4,
       nom: "Salma",
-      picture: "/assets/salma.jpg",
+      picture: "src/assets/salma.jpg",
       tasks: [
-        { id: 401, text: "Set up database ", statu: "pending" },
-        { id: 402, text: "Monitor server ", statu: "done" },
-        { id: 403, text: "Update security ", statu: "pending" },
+        // { id: 401, text: "Set up database ", statu: "pending" },
+        // { id: 402, text: "Monitor server ", statu: "done" },
+        // { id: 403, text: "Update security ", statu: "pending" },
       ]
     },
   ];

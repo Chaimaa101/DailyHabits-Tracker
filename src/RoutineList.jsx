@@ -8,7 +8,8 @@ function RoutineList({ user, check, cancel, remove }) {
       <div>
     {
       user.tasks.map((task) =>(
-        <RoutineCard   key={task.id}
+        <RoutineCard  
+         key={task.id}
           task={task.text}
           status={task.statu}
           taskId={task.id}

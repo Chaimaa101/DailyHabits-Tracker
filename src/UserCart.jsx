@@ -1,12 +1,18 @@
+import { useEffect } from 'react'
 import RoutineList from './RoutineList'
 
 function UserCart({ user, check, cancel, remove}) {
   const completed = user.tasks.filter(task => task.statu === "done").length
-    const progress = Math.round((completed / user.tasks.length) * 100)
-
+  const progress = Math.round((completed / user.tasks.length) * 100)
+  
+  //   useEffect(() => {
+  //   if (user.tasks.length > 0 && completed === user.tasks.length) {
+  //     alert(`🎉 Well done ${user.nom} ! You have completed all your tasks ✅`)
+  //   }
+  // }, [])
+  
   return (
     <div >
-      
       <div className="bg-white/90 p-6 rounded-md shadow-md flex flex-col items-center text-center">
         <img src={user.picture} alt='No image'  className="rounded-full w-20 h-20 mb-4 border-2 border-lavender" />
         <h2 className="text-lg font-semibold text-violet">{user.nom}</h2>
@@ -17,8 +23,6 @@ function UserCart({ user, check, cancel, remove}) {
         cancel={cancel}
         remove={remove}/>
       </div>
-
-   
     </div>
   )
 }

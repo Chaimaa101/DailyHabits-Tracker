@@ -14,7 +14,7 @@ function AddRoutineForm({ users , setUsers }) {
       if (user.id === parseInt(selectedUser)) {
         return {
           ...user,
-          tasks: [...user.tasks, { text: habit, statu: "pending" }],
+          tasks: [...user.tasks, { id:Math.floor(Math.random()*20)+1, text: habit, statu: "pending" }],
         } 
       }
       return user 
