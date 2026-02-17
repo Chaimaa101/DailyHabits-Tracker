@@ -1,5 +1,11 @@
 # DailyHabits Tracker 📊
 
+<h1 align="center">
+	<img
+		width="200"
+		alt="FlexiDays"
+		src="src/assets/logo.jpg">
+</h1>
 
 Une application web de suivi d'habitudes quotidiennes développée avec React. Idéale pour les familles, colocataires ou groupes d'amis souhaitant suivre et améliorer leurs routines ensemble.
 
