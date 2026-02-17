@@ -25,27 +25,6 @@ Une application web de suivi d'habitudes quotidiennes développée avec React. I
 - **LocalStorage API** - Persistance des données
 - **React Hooks** (useState, useEffect) - Gestion d'état et effets
 
-## 📋 Structure du projet
-dailyhabits-tracker/
-├── public/
-│ └── index.html
-├── src/
-│ ├── components/
-│ │ ├── App.js
-│ │ ├── UserList.js
-│ │ ├── UserCard.js
-│ │ ├── RoutineList.js
-│ │ ├── RoutineCard.js
-│ │ └── AddRoutineForm.js
-│ ├── styles/
-│ │ └── App.css
-│ ├── utils/
-│ │ └── localStorage.js
-│ └── index.js
-├── package.json
-└── README.md
-
-text
 
 ## 🚀 Installation et démarrage
 
